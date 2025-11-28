@@ -18,6 +18,7 @@ public class Lernkartei {
         }
     }
     public int gibAnzahlKarten() {
+        System.out.println(lernkartesAnz);
         return lernkartesAnz;
     }
     public Lernkarte[] gibKartenZuKategorie(String kategorie){
